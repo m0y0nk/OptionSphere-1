@@ -6,6 +6,19 @@ import numpy as np
 
 st.set_page_config(page_title="OptionSphere", page_icon="\U0001F4B0", layout="centered")
 
+page_bg = """
+<style>
+body {
+    background-image: url("https://plus.unsplash.com/premium_photo-1664476845274-27c2dabdd7f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-attachment: fixed;
+}
+</style>
+"""
+
+# Apply the CSS
+st.markdown(page_bg, unsafe_allow_html=True)
+
 # Custom CSS for Animations and Enhanced Design
 st.markdown(
     """
